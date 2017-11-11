@@ -1,6 +1,10 @@
 
 $main-font-size: 14px;
 
+$upcoming-races-screenshot-height: 160px;
+
+$title-bar-border-radius: 50px;
+
 $color-red:#f2331a;
 $color-yellow: #ffe946;
 
@@ -12,7 +16,7 @@ body {
 .first-play-section {
     .title-bar {
         background-color: $color-yellow;
-        border-radius: 50px;
+        border-radius: $title-bar-border-radius;
         padding: 5px 15px;
         margin: 15px 0;
         font-weight: bold;
@@ -25,6 +29,7 @@ body {
     .screenshot {
         width: 100%;
         height: auto;
+        
     }
 
     .game-title {
@@ -50,6 +55,49 @@ body {
         }
 
         .content-slot:last-of-type {
+            border-right-style: none;
+        }
+    }
+}
+
+.upcoming-races-section {
+
+    .title-bar {
+        color: #fff;
+        background-color: $color-red;
+        border-radius: $title-bar-border-radius;
+        padding: 5px 15px;
+        margin: 15px 0;
+        font-weight: bold;
+
+        .accented {
+            color: $color-yellow;
+        }
+    }
+
+    .game-title {
+        font-weight: bolder;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .platforms {
+        color: $color-red;
+    }
+
+    .upcoming-race-slot {
+        border: 1px dotted grey;
+        border-top-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-right-style: dotted;
+
+        .screenshot {
+            width: 100%;
+            height: auto;
+        }
+
+        &:last-of-type {
             border-right-style: none;
         }
     }

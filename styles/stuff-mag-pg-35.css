@@ -30,4 +30,31 @@ body {
 .first-play-section .copy-content .content-slot:last-of-type {
   border-right-style: none; }
 
+.upcoming-races-section .title-bar {
+  color: #fff;
+  background-color: #f2331a;
+  border-radius: 50px;
+  padding: 5px 15px;
+  margin: 15px 0;
+  font-weight: bold; }
+  .upcoming-races-section .title-bar .accented {
+    color: #ffe946; }
+.upcoming-races-section .game-title {
+  font-weight: bolder;
+  font-size: 16px;
+  margin-top: 10px; }
+.upcoming-races-section .platforms {
+  color: #f2331a; }
+.upcoming-races-section .upcoming-race-slot {
+  border: 1px dotted grey;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-right-style: dotted; }
+  .upcoming-races-section .upcoming-race-slot .screenshot {
+    width: 100%;
+    height: auto; }
+  .upcoming-races-section .upcoming-race-slot:last-of-type {
+    border-right-style: none; }
+
 /*# sourceMappingURL=stuff-mag-pg-35.css.map */
