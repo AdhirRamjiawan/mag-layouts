@@ -73,4 +73,42 @@ body {
   .upcoming-races-section .upcoming-race-slot:last-of-type {
     border-right-style: none; }
 
+.incoming-section {
+  margin-top: 50px;
+  padding-top: 25px;
+  background-color: #eee; }
+  .incoming-section .incoming-screenshot {
+    width: 100%;
+    height: auto; }
+  .incoming-section .incoming-title {
+    background-color: #ffe946;
+    border-radius: 50px;
+    margin-top: -35px;
+    padding: 5px 15px;
+    font-weight: bold;
+    width: 100px; }
+  .incoming-section .incoming-info {
+    font-weight: bold;
+    margin-top: 15px; }
+    .incoming-section .incoming-info li {
+      margin-top: -7px; }
+    .incoming-section .incoming-info .red-item {
+      list-style: none;
+      margin-left: -15px; }
+      .incoming-section .incoming-info .red-item:before {
+        font-size: x-large;
+        content: "\002022 ";
+        color: #f2331a; }
+    .incoming-section .incoming-info .yellow-item {
+      list-style: none;
+      margin-left: -15px; }
+      .incoming-section .incoming-info .yellow-item:before {
+        font-size: x-large;
+        content: "\002022 ";
+        color: #ffe946; }
+    .incoming-section .incoming-info .month {
+      list-style: none;
+      margin-left: -15px;
+      color: grey; }
+
 /*# sourceMappingURL=stuff-mag-pg-35.css.map */

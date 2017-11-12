@@ -122,3 +122,64 @@ body {
         }
     }
 }
+
+.incoming-section {
+    margin-top: 50px;
+    padding-top: 25px;
+    background-color: #eee;
+
+    .incoming-screenshot {
+        width: 100%;
+        height: auto;
+    }
+
+    .incoming-title {
+        background-color: $color-yellow;
+        border-radius: $title-bar-border-radius;
+        margin-top: -35px;
+        padding: 5px 15px;
+        font-weight: bold;
+        width: 100px;
+    }
+
+    .incoming-info {
+        font-weight: bold;
+        margin-top: 15px;
+        
+        li {
+            margin-top: -7px;
+        }
+
+        .red-item {
+            list-style: none;
+            margin-left: -15px;
+
+            &:before {
+                font-size: x-large;
+                content: "\002022 ";
+                color: $color-red;
+            }
+
+            
+        }
+
+        .yellow-item {
+            list-style: none;
+            margin-left: -15px;
+
+            &:before {
+                font-size: x-large;
+                content: "\002022 ";
+                color: $color-yellow;
+            }
+
+            
+        }
+
+        .month {
+            list-style: none;
+            margin-left: -15px;
+            color: grey;
+        }
+    }
+}
